@@ -6,7 +6,7 @@
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
  <meta name="keywords" content="Dihing, Hostel, IITG, Indian Hostel, IITians Dihing, North-East, Guwahati "/>
  <link rel="shortcut icon" href="hmc/Dihing.jpg"/>
-    
+    <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css"> 
 
 </head>
 <body>
@@ -1006,7 +1006,20 @@ background: #ffffff no-repeat;
 If you thought IITians were nerds and geeks who knew nothing about sports then you could not be more wrong in your life. A visit to ZEST  the sports centre of DIHING at any time of the day would prove all your false notions, false! ZEST boasts of a state of art T.T. table, a brand new carom board and a plethora of sports equipments ranging from cricket bats to T.T. bats , tennis and badminton racquets etc. You can always find some DIHINGite or any other showcasing his skills in sports at any time of the day. If you haven't seen TT ball bounce about in great speed or the carom coins zoom around accurately in the x-y plane of the carom board or the game we Indians are most passionate about  cricket  being played with devotion, Dihing is the place to be. DIHING OPEN and SILVER STUMPS are two cricket tournaments organized by DIHING which are greatly looked forward to as they inspire enthusiasm and consequently receive enormous participation. The number of DIHINGites in the inter-IIT team further confirms that Dihing lacks neither in potential nor in facilities when it comes to sports. With many more things in the pipeline, better come and experience sports THE DIHING WAY. Events Silver Stumps: The Intra Hostel Cricket Tournament which is held immediately after D-MAN hunt. It's the very first initiative to hold a sports competition in the Odd Semester. Generous cash prizes! Dihing Open: Needs no introduction DPL: The Dihing Premier League. A first of its kind football competition in IIT Guwahati, it ran into three consecutive days and catered to the numerous football lovers in our hostel. Chess: We are IITians and how could we not play the game that stresses our mental faculties to the hilt? Believing in this philosophy, Dihing organizes this chess tournament each year.
 
 </p>
-<br />
+<div id="map" style="width:100% !important;height: 400px !important"></div>
+    <script>
+      function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 26.188028, lng: 91.699804},
+          zoom: 8
+        });
+      }
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0grmFYJSD2hGpfPORLUsb_ClD1GBiGLM&callback=initMap"
+    async defer></script>
+		
 <br />
 <a href="#" >back to top</a>
 
